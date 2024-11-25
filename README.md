@@ -42,6 +42,7 @@ Welcome to the D&D Dice Roller!
 6. D20 (20 sides)
 7. Exit the program
 ```
+![Die](https://github.com/user-attachments/assets/97e13ac1-1c46-42b6-9b4c-6636d41ad51f)
 
 ### 4. Enter your choice (1-7): 6
 
@@ -56,6 +57,7 @@ Press Enter to Roll or 'R' to Exit:
 You Rolled: A CRITICAL HIT!!!
 Press Enter to Roll or 'R' to Exit: R
 ```
+![CritHit](https://github.com/user-attachments/assets/676be832-d46e-4b96-bf8a-694f805341ad)
 
 ### 5. Choose a die to roll
 
