@@ -14,12 +14,13 @@ A simple command-line program to roll various dice used in Dungeons & Dragons an
 
 ## How to Use
 
-1. Run the program in your terminal:
+### 1. Run the program in your terminal
 
-   ```bash
+   ```python
    python dnd_dice_roller.py
+   ```
 
-Follow the on-screen instructions:
+### 2. Follow the on-screen instructions
 
 Select a die: Choose from the dice menu by entering a number (e.g., 1 for D4, 2 for D6, etc.).
 Roll the die: Press Enter to roll the die and see the result.
@@ -30,8 +31,9 @@ plaintext
 Copy code
 Welcome to the D&D Dice Roller!
 
-Choose a die to roll:
+### 3. Choose a die to roll
 
+```bash
 1. D4 (4 sides)
 2. D6 (6 sides)
 3. D8 (8 sides)
@@ -39,9 +41,13 @@ Choose a die to roll:
 5. D12 (12 sides)
 6. D20 (20 sides)
 7. Exit the program
-Enter your choice (1-7): 6
+```
 
-Rolling a D20 die. Type 'R' to return to the die menu:
+### 4. Enter your choice (1-7): 6
+
+```bash
+Rolling a D20 die. 
+Type 'R' to return to the die menu:
 Press Enter to Roll or 'R' to Exit:
 You Rolled: 15
 Press Enter to Roll or 'R' to Exit:
@@ -49,9 +55,11 @@ You Rolled: A CRITICAL FAILURE!
 Press Enter to Roll or 'R' to Exit:
 You Rolled: A CRITICAL HIT!!!
 Press Enter to Roll or 'R' to Exit: R
+```
 
-Choose a die to roll:
+### 5. Choose a die to roll
 
+```bash
 1. D4 (4 sides)
 2. D6 (6 sides)
 3. D8 (8 sides)
@@ -59,39 +67,68 @@ Choose a die to roll:
 5. D12 (12 sides)
 6. D20 (20 sides)
 7. Exit the program
-Enter your choice (1-7): 7
+```
+
+### 6. Enter your choice (1-7): 7
+
+```bash
 Thanks for playing! Goodbye.
-Requirements
+```
+
+## Requirements
+
+```bash
 Python 3.6 or higher
 random module (part of Python's standard library)
-File Structure
-plaintext
-Copy code
+```
+
+## File Structure
+
+```bash
 .
 ├── dnd_dice_roller.py   # Main Python program file
 ├── README.md            # This documentation file
-Code Explanation
-Main Functions
-roll_die(sides: int) -> int
+```
+
+## Code Explanation
+
+### Main Functions
+
+**1. roll_die(sides: int) -> int:**
+
+```bash
 Rolls a die with the specified number of sides and returns the result.
 
-die_selection_menu()
+```
+
+**2. die_selection_menu():**
+
+```bash
 Displays a menu of available dice and allows the user to select one. Includes an option to exit the program.
+```
 
-roll_menu(sides: int)
+**3. roll_menu(sides: int):**
+
+```bash
 Allows the user to roll the selected die repeatedly. Special messages are displayed for critical rolls (1 or 20) on a D20 die. The user can return to the main menu by typing R.
+```
 
-main()
+***4. main():***
+
+```bash
 Runs the main program loop, managing the die selection menu and roll menu.
+```
 
-Future Enhancements
-Add support for custom dice (e.g., D100).
-Include functionality to roll multiple dice simultaneously.
-Add a GUI version for a more interactive experience.
-Contributing
-Feel free to submit issues or pull requests if you have ideas for improvements or bug fixes.
+## Future Enhancements
 
-License
+- Add support for custom dice (e.g., D100).
+- Include functionality to roll multiple dice simultaneously.
+- Add a GUI version for a more interactive experience.
+- Contributing
+- Feel free to submit issues or pull requests if you have ideas for improvements or bug fixes.
+
+## License
+
 This project is licensed under the MIT License. You are free to use, modify, and distribute this program as you like.
 
-Enjoy rolling your dice, and may your rolls always be critical hits!
+## Enjoy rolling your dice, and may your rolls always be critical hits
